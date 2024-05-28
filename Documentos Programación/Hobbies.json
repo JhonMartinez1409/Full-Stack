@@ -1,0 +1,41 @@
+[
+    {
+
+        "NOMBRE": "Jhon Martinez",
+        "EDAD": 27,
+        "CORREO-ELECTRONICO": "JhonMartinez2409@mail.com",
+        "HOBBIES": ["Viajar", "Programar", "Ajedrez"],
+        "activo": true
+     },
+        {
+        "NOMBRE": "Carolina Aguilar",
+        "EDAD": 25,
+        "CORREO-ELECTRONICO": "Carolinaaguilarca03@mail.com",
+        "HOBBIES": ["leer", "Estudiar", "Ejercitarse"],
+        "activo": true
+        },
+
+    {
+        "NOMBRE" : "Juan Martinez",
+        "EDAD": 25,
+        "CORREO ELECTRONICO": "Juandiegomsrtinezpulido@gmail.com",
+        "HOBBIES": ["Construir","Leer","Reparar"],
+        "Activo": true
+
+    },
+
+        {
+        "NOMBRE": "Luna",
+        "EDAD": 35,
+        "CORREO-ELECTRONICO": "Luna@gmail.com",
+        "HOBBIES": ["Jugar", "Pasear", "Morder"],
+        "activo": true
+    },
+    {
+        "NOMBRE": "Fabian Puentes",
+        "EDAD": 25,
+        "CORREO-ELECTRONICO": "Fabiany@gmail.com",
+        "HOBBIES": ["Micro", "escribir", "Vender"],
+        "activo": true
+    }
+    ]

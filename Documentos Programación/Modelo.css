@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(11, 3, 11); /* color de fondo de pagina */
+    background: rgb(9, 13, 31);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+.animación {
+    width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+nav{
+    background-color: rgb(241, 246, 254); /* Color de  cuadros url paginas moto*/
+    color: rgb(73, 13, 237);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid rgb(7, 10, 226);
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+
+}
+    
+.Marcas-Motos{
+    display: grid;
+    grid-template-columns:auto 200px 200px;
+    grid-template-rows:auto 40px 40px 40px;
+    justify-content: center;
+}
+.Marcas-Motos div{
+    background-color:rgb(3, 21, 7);
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    border: 1px solid rgb(211, 12, 12);
+    justify-content: center;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30px;
+    background-color: rgb(214, 220, 222);
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+section{
+flex: 30px;
+background-color:rgb(13, 13, 13);
+font-size: 25px;
+color: white;
+text-align: center;
+padding:10px;
+}
+#Mot{ /* titulo de la pagina*/
+    font-family: Bungee Spice, Arial, Helvetica, sans-serif;  
+    background-color: black;
+    background-size: cover; 
+    text-align: center;
+    padding: 15px;
+}
+
+.blanco{
+    background-color: black;
+    color: rgb(211, 211, 227);
+    background-size: cover; 
+    text-align: center;
+    padding: 10px;
+    
+}
+#primer-parrafo{
+    background:linear-gradient(blue,pink);
+    font-size: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align:center; /* Texto centrado */
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 2px rgb(255, 0, 217);
+    border-radius: 3PX;
+    /*background-image: url(Gato-Disociado.jpg); imagen de fondo*/
+    background-size: cover; 
+    
+}
+#segundo{
+    background-color: darkslateblue;
+    font-size: 20px;
+    font-family: Bungee Spice, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+    
+
+}
+footer{
+    background-color:#4f80e1;
+}
+#gx{ /*GIXXER 250 AZUL/GRIS*/
+    background-color: azure;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: red;
+}

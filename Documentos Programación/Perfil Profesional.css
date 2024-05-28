@@ -1,0 +1,39 @@
+body{
+    /*background-image:url(FOTO\ JHON\ MARTINEZ.jpg);*/
+    background-color: beige;    
+    text-align: center;
+}       
+header{
+    background-color:rgb(3, 13, 43);
+    font-family: Bungee Spice, Arial , Helvetica, sans-serif;
+    border-radius: 0cap;
+    box-shadow: 0 0 8px;
+    color:rgb(5,159,236);
+    font-size: 15px;
+    }
+    
+    .Información{
+    background-color: antiquewhite;
+    
+    }
+    
+    .Experiencia-laboral{
+        background-color: rgb(118, 27, 178);
+        }
+    
+    .h1{
+        color:rgb(3, 13, 43);
+        text-decoration: underline;
+    }
+    .habilidades{
+        background:rgb(3, 13, 43);
+        color:rgb(231, 14, 14);
+        border-radius: 10px;
+        }
+    footer{
+        background-color:rgb(3, 13, 43);
+        color:rgb(5, 159, 236);
+        border-radius: 10px;
+    }
+    
+    

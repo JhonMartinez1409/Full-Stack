@@ -1,0 +1,58 @@
+    body {
+        background-color: rgb(11, 3, 11); /* color de fondo de pagina */
+        background: rgb(9, 13, 31);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    }
+    .class1 {
+        background-color: rgba(0, 0, 0, 0.692);
+        color:  rgb(125, 213, 10);
+        font-family: Bungee Spice, Arial, Helvetica, sans-serif;
+        width: 800px;
+        height: auto;
+        padding: 40px;
+        margin: 0 auto;
+        background-position:center;
+        text-align: center;
+        align-items: center;
+        justify-content: center; 
+    }
+
+
+    .grid-container {
+        display: grid;
+        background-color: #0c64de;
+        grid-template-columns: auto auto auto;
+        padding: 80px;
+        border: 4px solid rgb(199, 12, 12);
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .animacion {
+        width: 90px;
+        height: 50px;
+        background-color: #0c64de;
+        text-align: center;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        
+        
+    }
+    
+    @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:rgb(0, 0, 0); left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:rgb(34, 6, 137); left:0px; top:200px;}
+    100% {background-color:rgb(231, 6, 182); left:0px; top:0px;}
+    }
+    
+
+    .tamaño{
+        border-radius: 30%;
+        width: 90PX ;
+        height: 100PX;
+    }
+    

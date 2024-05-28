@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(11, 3, 11); /* color de fondo de pagina */
+    background: rgb(9, 13, 31);
+    background-image: url(Foto_netflix.jpg);
+    /*background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);*/
+}
+
+    .login {
+        width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-direction: reverse;  
+    }
+    nav{
+        background: linear-gradient(360deg, transparent, #000); /*color de fondo de netflix*/
+        color: rgb(226, 231, 233);
+        width: 300px;
+        height: 600px;
+        padding: 20px;
+        border: 1px solid rgb(36, 36, 44);
+        margin: 100px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 1px;
+        margin-left: 550px;
+    }    
+    .Inicia {
+        color: rgb(13, 76, 237);
+        width: 300px;
+        height: 400px;
+        padding: 200x;
+        border: 10px solid rgb(7, 10, 226);
+        margin: 100px;
+        font-size: 40px;
+        text-align: center;  
+    }
+
+    #Netflix {
+        
+        color: rgb(249, 6, 6);
+        font-family: Bungee Spice, Arial, Helvetica, sans-serif;
+        /* background-color: rgb(226, 231, 233);  Color de  cuadro netflix*/
+        width: 200px;
+        height: 20px;
+        text-align: center; 
+    }
+    #NOMBRE {
+        color: rgb(12, 13, 14);
+        background: linear-gradient(360deg, transparent, #000); /* Color de  cuadro netflix*/
+        width: 250px;
+        height: 40px;
+        text-align: center;     
+    }
+    #CLAVE {
+        color: rgb(6, 7, 7);
+        background: linear-gradient(360deg, transparent, #000); /* Color de  cuadro netflix*/
+        width: 250px;
+        height: 40px;
+        text-align: center;
+         
+    }
+    #Boton {
+        color: rgb(212, 215, 222);
+        background-color: rgb(168, 12, 12); /* Color de  boton inicio de sesion*/
+        width: 250px;
+        height: 40px;
+        text-align: centerx ;     
+    }
+    #olvc {
+        color: rgb(212, 215, 222);
+        font-size: 20px;
+        width: 250px;
+        height: 40px;
+        text-align: center;
+          
+    }
+
+    #primera {
+        color: rgb(212, 215, 222);
+        font-size: 20px;
+        width: 250px;
+        height: 40px;
+        text-align: center;
+          
+    }
+
+    #Boton_1 {
+        color: rgb(220, 220, 234);
+        background: linear-gradient(360deg, transparent, #393838); /* Color de  boton codigo*/
+        width: 250px;
+        height: 40px;
+        text-align: center;
+          
+    }
+
+    #Boton_3 {
+        color: rgb(23, 23, 24);
+        background: linear-gradient(360deg, transparent, #393838); /* Color de  boton codigo*/
+        width: 250px;
+        height: 20px;
+        text-align: center; 
+
+
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 20px;
+          }
+
+        
+    footer{
+        /*background-color:#4f80e1;*/
+        font-size: 15px;
+
+    }

@@ -1,0 +1,29 @@
+[
+    {
+        "modelo": "ford mustang",
+        "produccion": 2010,
+        "kilometraje" : 1500
+    },
+
+    {
+        "modelo": "Honda accord",
+        "produccion": 2021,
+        "kilometraje" : 4600
+
+    },
+
+    {
+        "modelo": "chevrolet cruze",
+        "produccion": 2024,
+        "kilometraje" : 30000
+
+    },
+
+    {
+        "modelo": "volkswagen golf",
+        "produccion": 2016,
+        "kilometraje" : 12000
+    }
+
+
+]

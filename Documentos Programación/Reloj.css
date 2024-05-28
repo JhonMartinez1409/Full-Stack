@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d83de;
+  }
+  
+  
+  .clock {
+    border: none;
+    outline: 0;
+    padding: 40px;
+    color: rgb(5, 157, 234);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 180px;
+    border-radius: 50%;
+  }
