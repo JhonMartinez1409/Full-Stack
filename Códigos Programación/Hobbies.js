@@ -11,7 +11,8 @@ AGREGAR UNA NUEVA PROPIEDAD, CONEL NOMBRE ACTIVO. valor booleano
 filtro(opcional)*/
 
 
-const DATOS_CONTACTOS =`[{
+const DATOS_CONTACTOS =`[
+  {
     "NOMBRE": "Jhon Martinez",
     "EDAD": 27,
     "CORREO-ELECTRONICO": "JhonMartinez2409@mail.com",
@@ -51,21 +52,22 @@ const DATOS_CONTACTOS =`[{
   }
 ]`;
 
-
 // Validación de tipo de dato//
-    
-console.log(typeof DATOS_CONTACTOS);
 
-const jsonData = JSON.parse(DATOS_CONTACTOS); // pasa de cadena a objeto    
+console.log(typeof DATOS_CONTACTOS); //valida tipo de dato
 
-const edades = jsonData.filter(persona => persona.EDAD > 30);
+const jasondata=JSON.parse(DATOS_CONTACTOS); // pasa de cadena a objeto
+
+console.log(typeof jasondata)
+
+const edades = jasondata.filter(persona => persona.EDAD < 29);
 console.log(edades);
 
 const actividades = jsonData.filter(persona => persona.HOBBIES = "leer");
 console.log(actividades);
 
 
-
+/*
 const actividadesObj = JSON.stringify(actividades);
 console.log(typeof actividadesObj)
 
@@ -80,4 +82,4 @@ fs.writeFile('Actividad-Objects.json',bool,(error)=>{
         throw error;
         console.log("dato agregado")
     }
-});
+});*/
