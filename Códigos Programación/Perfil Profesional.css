@@ -1,25 +1,68 @@
 body{
     /*background-image:url(FOTO\ JHON\ MARTINEZ.jpg);*/
     background-color: beige;    
-    text-align: center;
-}       
+    text-align: left;
+}      
+
+.perfil{
+    background-color:rgb(7, 99, 236);
+
+}
+#Nombre{
+     background-color: rgb(31, 73, 125);
+  text-align: center;
+  color:rgb(239, 184, 16);
+}
+#apellido{
+    color:rgb(239, 184, 16);  
+}
+#Perfiltitulo{
+
+text-align: center;
+font-size: 20px;
+
+}
+
 header{
-    background-color:rgb(3, 13, 43);
+    background-color:rgb(239, 241, 244);
     font-family: Bungee Spice, Arial , Helvetica, sans-serif;
     border-radius: 0cap;
     box-shadow: 0 0 8px;
     color:rgb(5,159,236);
     font-size: 15px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
     }
-    
+    aside{
+    flex: 30px;
+    background-color: rgb(31, 73, 125);
+    color: rgb(245, 239, 239);
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+section{
+flex: 600px;
+background-color:rgb(255, 255, 255);
+font-size: 25px;
+color: rgb(9, 1, 1);
+text-align: center;
+padding:10px;
+}
+
+
     .Información{
     background-color: antiquewhite;
     
     }
-    
-    .Experiencia-laboral{
-        background-color: rgb(118, 27, 178);
-        }
+    .Barra-división{
+        background-color: rgb(31, 73, 125);
+        padding:15px;
+
+    }
+        
+
     
     .h1{
         color:rgb(3, 13, 43);

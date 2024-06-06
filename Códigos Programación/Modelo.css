@@ -54,6 +54,10 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
+#prueba{
+    display: flex;
+    flex-wrap: wrap;
+}
 aside{
     flex: 30px;
     background-color: rgb(214, 220, 222);
@@ -75,7 +79,7 @@ padding:10px;
     background-color: black;
     background-size: cover; 
     text-align: center;
-    padding: 15px;
+    padding: 15zpx;
 }
 
 .blanco{
